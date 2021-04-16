@@ -94,6 +94,6 @@ public class Matematico{
 
             }
         }
-    }
     return cuadrante;
+    }
 }
