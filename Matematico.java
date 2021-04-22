@@ -46,7 +46,7 @@ public class Matematico{
         // el problema no contempla numeros negativos
         double area;
 
-        area = base * altura;
+        area = Math.abs(base * altura);
 
         return area;
     }
@@ -87,7 +87,7 @@ public class Matematico{
                 cuadrante = "Se encuentra sobre el origen, por lo que no se puede determinar el cuadrante exacto en el que se encuentra";
             }else{
                 if (punto.getX() > 0 ){
-                    cuadrante = "Sse encuentra entre el primer y cuarto cuadrante, sobre el eje x";
+                    cuadrante = "Se encuentra entre el primer y cuarto cuadrante, sobre el eje x";
                 }else{
                     cuadrante = "Se encuentra entre el segundo y tercer cuadrante, sobre el eje x";
                 }
